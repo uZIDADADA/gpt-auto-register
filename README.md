@@ -1,10 +1,3 @@
-
-技术交流群：259844673
-
-
-<img width="280" height="265" alt="image" src="https://github.com/user-attachments/assets/a24f9f9b-0dfa-440e-8ee8-6e461d03eeea" />
-
-
 **完全无浏览器**：用 `curl_cffi` 模拟 TLS 指纹 + 纯 Python/QuickJS 解 OpenAI Sentinel PoW + IMAP XOAUTH2 取 OTP，直接走 OpenAI authorize 状态机。
 
 含轻量级 **WebUI**：批量导入号池、可视化触发注册、实时 SSE 日志、凭证一键复制。
@@ -38,8 +31,8 @@
 
 #### 全新安装
 ```bash
-git clone https://github.com/Regert888/gpt-outlook-register.git
-cd gpt-outlook-register
+git clone --branch dev https://github.com/uZIDADADA/gpt-auto-register.git
+cd gpt-auto-register
 pip install -r requirements.txt
 python start_webui.py
 # 浏览器自动打开 http://127.0.0.1:8765/
@@ -91,7 +84,7 @@ screen -ls
 
 #### 已有项目，安全升级（不丢数据）
 ```bash
-cd gpt-outlook-register
+cd gpt-auto-register
 
 # 1. 🔴 备份数据库（重要！）
 cp webui/webui.db webui/webui.db.backup
@@ -325,7 +318,7 @@ WebUI「📱 接码配置」Tab 启用接码后，命中 add-phone 时会自动�
 
 - **个人学习和研究**：可自由使用。
 - **二次开发**：衍生作品须以相同许可证**开源**，
-  并保留原作者署名和本项目地址 <https://github.com/Regert888/gpt-outlook-register>。
+  并保留原作者署名和本项目地址 <https://github.com/Regert888/gpt-auto-register>。
 - **AGPL 特有条款**：通过网络提供服务（例如把本项目的 WebUI 架在服务器上给别人用）
   同样视为分发，**必须向使用者提供对应的完整源码**。
 
